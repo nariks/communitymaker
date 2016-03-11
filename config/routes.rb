@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
+  resources :profiles
   resources :photos
   resources :posts
   resources :events
   resources :groups
   resources :group_categories
-  resources :profiles
   devise_for :users
   root    'home#index'
   get     'home/index'

@@ -7,7 +7,7 @@ one:
   profile_pic: MyString
   bio: MyText
   dob: 2016-03-11
-  streeeet: MyString
+  street: MyString
   suburb: MyString
   state: MyString
   city: MyString
@@ -22,7 +22,7 @@ two:
   profile_pic: MyString
   bio: MyText
   dob: 2016-03-11
-  streeeet: MyString
+  street: MyString
   suburb: MyString
   state: MyString
   city: MyString

@@ -7,7 +7,7 @@ class CreateProfiles < ActiveRecord::Migration
       t.string :profile_pic
       t.text :bio
       t.date :dob
-      t.string :streeeet
+      t.string :street
       t.string :suburb
       t.string :state
       t.string :city

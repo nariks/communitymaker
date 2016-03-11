@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 gem 'devise'
 gem 'simple_form'
+gem 'country_select'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

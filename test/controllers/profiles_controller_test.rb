@@ -18,7 +18,7 @@ class ProfilesControllerTest < ActionController::TestCase
 
   test "should create profile" do
     assert_difference('Profile.count') do
-      post :create, profile: { bio: @profile.bio, city: @profile.city, country: @profile.country, dob: @profile.dob, first_name: @profile.first_name, gender: @profile.gender, last_name: @profile.last_name, phone: @profile.phone, profile_pic: @profile.profile_pic, state: @profile.state, streeeet: @profile.streeeet, suburb: @profile.suburb, user_id: @profile.user_id }
+      post :create, profile: { bio: @profile.bio, city: @profile.city, country: @profile.country, dob: @profile.dob, first_name: @profile.first_name, gender: @profile.gender, last_name: @profile.last_name, phone: @profile.phone, profile_pic: @profile.profile_pic, state: @profile.state, street: @profile.street, suburb: @profile.suburb, user_id: @profile.user_id }
     end
 
     assert_redirected_to profile_path(assigns(:profile))
@@ -35,7 +35,7 @@ class ProfilesControllerTest < ActionController::TestCase
   end
 
   test "should update profile" do
-    patch :update, id: @profile, profile: { bio: @profile.bio, city: @profile.city, country: @profile.country, dob: @profile.dob, first_name: @profile.first_name, gender: @profile.gender, last_name: @profile.last_name, phone: @profile.phone, profile_pic: @profile.profile_pic, state: @profile.state, streeeet: @profile.streeeet, suburb: @profile.suburb, user_id: @profile.user_id }
+    patch :update, id: @profile, profile: { bio: @profile.bio, city: @profile.city, country: @profile.country, dob: @profile.dob, first_name: @profile.first_name, gender: @profile.gender, last_name: @profile.last_name, phone: @profile.phone, profile_pic: @profile.profile_pic, state: @profile.state, street: @profile.street, suburb: @profile.suburb, user_id: @profile.user_id }
     assert_redirected_to profile_path(assigns(:profile))
   end
 
