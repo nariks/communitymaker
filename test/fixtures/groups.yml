@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  logo: MyString
+  banner: MyString
+  owner_id: 1
+  group_category_id: 
+
+two:
+  name: MyString
+  description: MyText
+  logo: MyString
+  banner: MyString
+  owner_id: 1
+  group_category_id: 
