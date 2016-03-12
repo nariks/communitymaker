@@ -2,6 +2,11 @@ source 'https://rubygems.org'
 gem 'devise'
 gem 'simple_form'
 gem 'country_select'
+gem 'bootstrap'
+gem 'carrierwave'
+gem 'cloudinary'
+gem 'rolify'
+gem 'cancancan'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
