@@ -1,0 +1,35 @@
+
+<h1>Admin</h1>
+<h3>Users</h3>
+<table class="table">
+	<tr>
+	<th>Name</th>
+	<th>Email</th>
+	<th>Phone</th>
+	<th>Admin Role</th>
+	<th></th>
+	</tr>
+
+<% @users.each do |user| %>
+	<tr>
+		<td><%= user.profile.fullname %></td>
+		<td> <%= user.email %></td>
+		<td> <%= user.profile.phone %></td>
+ 
+		<td><% if(user.has_role? :admin)%>
+					Yes</td>  <td> <%= link_to 'Remove Role', remove_admin_path(:user_id => user.id), method: :post, class:"btn btn-primary btn-large" %> </td> 
+				<% else %>
+					<td><%= link_to 'Create Role', add_admin_path(:user_id => user.id), method: :post, class:"btn btn-primary btn-large" %> </td>
+				<% end %>
+		
+		<td><%= link_to 'Delete User', delete_user_path(:user_id => user.id), method: :delete, data: { confirm: "You sure?"} class:"btn btn-primary btn-large" %> </td>
+		</tr> 
+		
+		
+
+		<!-- delete user -->
+		
+
+<% end %>
+                
+</tr>

@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get     'admin',          to: 'pages#admin'
+  get     'contact',        to: 'pages#contact'
+  get     'about',          to: 'pages#about'
+  post    'add_admin'       =>  'pages#add_admin'
+  post    'remove_admin'    =>  'pages#remove_admin'
+  delete  'delete_user'     =>  'pages#delete_user'
+ 
+
   resources :profiles
   resources :photos
   resources :posts

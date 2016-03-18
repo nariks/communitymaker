@@ -1,0 +1,93 @@
+Loading development environment (Rails 4.2.5.1)
+irb(main):001:0> k
+NameError: undefined local variable or method `k' for main:Object
+	from (irb):1
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/console.rb:110:in `start'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/console.rb:9:in `start'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:274:in `require'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:274:in `require'
+	from /home/nariks/Documents/apps/communitymaker/bin/rails:9:in `<top (required)>'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:268:in `load'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:268:in `load'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/commands/rails.rb:6:in `call'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:185:in `block in serve'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:156:in `fork'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:156:in `serve'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:131:in `block in run'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:125:in `loop'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:125:in `run'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application/boot.rb:18:in `<top (required)>'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from -e:1:in `<main>'irb(main):002:0> kiri[K[Kal[K[K[K[Kri[K[Kri[Kr[K[Ka[Kr[K
+irb(main):003:0* ails cac - --s
+NameError: undefined local variable or method `cac' for main:Object
+	from (irb):3
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/console.rb:110:in `start'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/console.rb:9:in `start'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:274:in `require'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:274:in `require'
+	from /home/nariks/Documents/apps/communitymaker/bin/rails:9:in `<top (required)>'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:268:in `load'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:268:in `load'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/commands/rails.rb:6:in `call'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:185:in `block in serve'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:156:in `fork'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:156:in `serve'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:131:in `block in run'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:125:in `loop'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:125:in `run'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application/boot.rb:18:in `<top (required)>'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from -e:1:in `<main>'irb(main):004:0> u`[K[K`ei
+irb(main):005:0` 
+irb(main):006:0` xi
+irb(main):007:0` ext[Kxit
+irb(main):008:0` exit
+irb(main):009:0` exitt
+irb(main):010:0` 
+irb(main):010:0> 
+SyntaxError: (irb):4: unterminated string meets end of file
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/console.rb:110:in `start'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/console.rb:9:in `start'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/commands_tasks.rb:68:in `console'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/commands.rb:17:in `<top (required)>'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:274:in `require'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:274:in `block in require'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:274:in `require'
+	from /home/nariks/Documents/apps/communitymaker/bin/rails:9:in `<top (required)>'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:268:in `load'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:268:in `block in load'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:240:in `load_dependency'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activesupport-4.2.5.1/lib/active_support/dependencies.rb:268:in `load'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/commands/rails.rb:6:in `call'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/command_wrapper.rb:38:in `call'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:185:in `block in serve'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:156:in `fork'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:156:in `serve'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:131:in `block in run'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:125:in `loop'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application.rb:125:in `run'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-1.6.4/lib/spring/application/boot.rb:18:in `<top (required)>'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/nariks/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from -e:1:in `<main>'irb(main):010:0> 
