@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  get     'admin',          to: 'pages#admin'
-  get     'contact',        to: 'pages#contact'
-  get     'about',          to: 'pages#about'
-  post    'add_admin'       =>  'pages#add_admin'
-  post    'remove_admin'    =>  'pages#remove_admin'
-  delete  'delete_user'     =>  'pages#delete_user'
+  get     'admin',          to:  'pages#admin'
+  get     'contact',        to:  'pages#contact'
+  get     'about',          to:  'pages#about'
+  get    'add_admin',      to:  'users#add_admin'
+  get    'remove_admin',   to:  'users#remove_admin'    #
+  delete  'delete_user',    to:  'users#delete_user'
  
 
   resources :profiles
@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   resources :groups
   resources :group_categories
   devise_for :users
+  #resources :users,  only: :destroy
   root    'home#index'
   get     'home/index'
 

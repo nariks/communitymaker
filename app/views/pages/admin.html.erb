@@ -7,29 +7,32 @@
 	<th>Email</th>
 	<th>Phone</th>
 	<th>Admin Role</th>
+  <th>Add / Remove Admin</th>
+  <th>Delete User</th>
 	<th></th>
 	</tr>
 
-<% @users.each do |user| %>
-	<tr>
-		<td><%= user.profile.fullname %></td>
-		<td> <%= user.email %></td>
-		<td> <%= user.profile.phone %></td>
- 
-		<td><% if(user.has_role? :admin)%>
-					Yes</td>  <td> <%= link_to 'Remove Role', remove_admin_path(:user_id => user.id), method: :post, class:"btn btn-primary btn-large" %> </td> 
-				<% else %>
-					<td><%= link_to 'Create Role', add_admin_path(:user_id => user.id), method: :post, class:"btn btn-primary btn-large" %> </td>
-				<% end %>
-		
-		<td><%= link_to 'Delete User', delete_user_path(:user_id => user.id), method: :delete, data: { confirm: "You sure?"} class:"btn btn-primary btn-large" %> </td>
-		</tr> 
-		
-		
+  <% @users.each do |user| %>
+  	<tr>
+  		<td><%= link_to user.profile.fullname, profile_path(user.profile) %></td>
+  		<td> <%= user.email %></td>
+  		<td> <%= user.profile.phone %></td>
+      <td><% if(user.has_role? :admin)%>
+  					Yes</td>  <td> <%= link_to 'Remove Role', remove_admin_path(:user_id => user.id), class:"btn btn-primary btn-large" %> </td> 
+  				<% else %>
+  					<td><%= link_to 'Create Role', add_admin_path(:user_id => user.id), class:"btn btn-primary btn-large" %> </td>
+  				<% end %>
+  		
+  		
+      <% if user != current_user %>
+      <td><%= link_to 'Delete User', delete_user_path(:user_id => user.id), method: :delete, class:"btn btn-primary btn-large" %> </td>
+      <%else %>
+      <td><%= link_to 'Edit User', edit_user_registration_path(:user_id => user.id), class:"btn btn-primary btn-large" %> </td>
+      <%end %>
 
-		<!-- delete user -->
-		
 
-<% end %>
-                
-</tr>
+  	</tr> 
+  <% end %>
+  <tr></tr>
+  </table>
+                  

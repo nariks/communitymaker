@@ -9,22 +9,7 @@ class PagesController < ApplicationController
 
   end
 
-  def add_admin
-  	user = User.find(params[:user_id])
-  	user.add_role :admin
-  	redirect_to admin_path
-  end
-
-  def remove_admin
-  	user = User.find(params[:user_id])
-  	user.remove_role :admin
-  	redirect_to admin_path
-  end
-
-  def delete_user
-    user = User.find(params[:user_id])
-    user.delete
-    redirect_to admin_path
+  
 
   def contact
   end
