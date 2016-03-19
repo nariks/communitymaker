@@ -16,8 +16,8 @@
       <tr>
         <td><%= group_category.name %></td>
         <td><%= group_category.description %></td>
-        <td><%= link_to 'Show', group_category %></td>
-        <td><%= link_to 'Edit', edit_group_category_path(group_category) %></td>
+        <td><%= link_to 'Show', group_category %> | </td> 
+        <td><%= link_to 'Edit', edit_group_category_path(group_category) %> | </td> 
         <td><%= link_to 'Destroy', group_category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
